@@ -24,12 +24,12 @@ Il layout e la composizione delle pagine fanno riferimento al **wireframe HTML**
 
 Gli studenti devono dimostrare di saper usare:
 
-| Area | Concetti |
-|------|----------|
-| React | Componente, props, `useState`, `useEffect`, eventi (`onClick`, `onChange`) |
-| Routing | React Router (rotte, parametri, `Outlet`) |
-| Dati | `fetch` verso API REST |
-| TypeScript | Tipi di base, interfacce/type per modelli dati e props |
+| Area       | Concetti                                                                   |
+| ---------- | -------------------------------------------------------------------------- |
+| React      | Componente, props, `useState`, `useEffect`, eventi (`onClick`, `onChange`) |
+| Routing    | React Router (rotte, parametri, `Outlet`)                                  |
+| Dati       | `fetch` verso API REST                                                     |
+| TypeScript | Tipi di base, interfacce/type per modelli dati e props                     |
 
 ---
 
@@ -65,6 +65,10 @@ Base URL TMDB per i poster: `https://image.tmdb.org/t/p/w500` + `poster_path`.
 
 Prima di scrivere codice, analizzare l’applicazione con lo strumento di lavoro **M9 · Scheda componente** (`M9_scheda-componente-semplificata.docx`), seguendo le indicazioni già presenti nel file.
 
+Link FSDA: https://itstalentfactory.sharepoint.com/:w:/r/sites/FSD1_A_25_27/Documenti%20condivisi/General/Materiale%20didattico/Frontend%202/Composition/M9_scheda-componente-semplificata.docx?d=w12dafd9ab4be4f3697ad263a71edb8df&csf=1&web=1&e=MczfYU
+
+Link FSDB: https://itstalentfactory.sharepoint.com/:w:/r/sites/FSD_ED2_25_27/Documenti%20condivisi/General/Materiale%20didattico/2%20anno/Frontend%202/Composition/M9_scheda-componente-semplificata.docx?d=we2411fcf8f304acd9b5c960db4a2d6de&csf=1&web=1&e=RDQscO
+
 Il riferimento visuale per la progettazione è il **wireframe HTML** fornito nella cartella `docs` del repository di partenza.
 
 ### Consegna della progettazione — regole obbligatorie
@@ -89,14 +93,14 @@ Partire da quel repository (fork/clone secondo le indicazioni del docente) e svi
 
 ## Setup obbligatorio
 
-| Voce | Valore |
-|------|--------|
-| Nome progetto | `esame-fe2-{cognome}` (es. `esame-fe2-rossi`) |
-| Stack | React + TypeScript |
-| Routing | React Router |
-| Versionamento | Git + GitHub |
-| Commit | **un commit per ogni step** elencato sotto |
-| Push | a fine prova (o a fine step, se richiesto dal docente) |
+| Voce          | Valore                                                 |
+| ------------- | ------------------------------------------------------ |
+| Nome progetto | `esame-fe2-{cognome}` (es. `esame-fe2-rossi`)          |
+| Stack         | React + TypeScript                                     |
+| Routing       | React Router                                           |
+| Versionamento | Git + GitHub                                           |
+| Commit        | **un commit per ogni step** elencato sotto             |
+| Push          | a fine prova (o a fine step, se richiesto dal docente) |
 
 ---
 
@@ -170,15 +174,15 @@ Commit: pagina dettaglio.
 
 ## Criteri di valutazione (sintesi)
 
-| Area | Cosa si valuta |
-|------|----------------|
+| Area          | Cosa si valuta                                                                               |
+| ------------- | -------------------------------------------------------------------------------------------- |
 | Progettazione | Scheda componente Word compilata, coerente con l’app e con il wireframe; consegnata su Teams |
-| Composizione | Coerenza con il wireframe e separazione in componenti |
-| TypeScript | Types corretti e usati sui componenti / dati |
-| Dati | `fetch` + `useEffect` + `useState` funzionanti |
-| Routing | Rotte esatte `/` e `/movies/:id` |
-| Requisiti | Nessun filtro, nessuna paginazione sull’elenco; URL API fissa |
-| Git | Una commit per step; repository pushato su GitHub |
+| Composizione  | Coerenza con il wireframe e separazione in componenti                                        |
+| TypeScript    | Types corretti e usati sui componenti / dati                                                 |
+| Dati          | `fetch` + `useEffect` + `useState` funzionanti                                               |
+| Routing       | Rotte esatte `/` e `/movies/:id`                                                             |
+| Requisiti     | Nessun filtro, nessuna paginazione sull’elenco; URL API fissa                                |
+| Git           | Una commit per step; repository pushato su GitHub                                            |
 
 ---
 
@@ -261,18 +265,18 @@ type MovieDetail = {
 
 # Appendice B — Checklist rapida per lo studente
 
-- [ ] Scheda componente Word compilata e caricata su Teams (non nel repo)  
-- [ ] Progetto nominato `esame-fe2-{cognome}` a partire dal repo fornito  
-- [ ] Consultati traccia e wireframe in `docs`  
-- [ ] Types creati (dettaglio fornito + resto autonomo)  
-- [ ] Header presente  
-- [ ] Una sola Shell condivisa (Header + `Outlet`) per entrambe le pagine  
-- [ ] Rotte esatte: `/` e `/movies/:id`  
-- [ ] Elenco: URL API fissa, no filtri, no paginazione; coerenza col wireframe  
-- [ ] Dettaglio: fetch con `id` da URL; coerenza col wireframe  
-- [ ] Una commit per ogni step  
-- [ ] Push su GitHub effettuata  
+- [ ] Scheda componente Word compilata e caricata su Teams (non nel repo)
+- [ ] Progetto nominato `esame-fe2-{cognome}` a partire dal repo fornito
+- [ ] Consultati traccia e wireframe in `docs`
+- [ ] Types creati (dettaglio fornito + resto autonomo)
+- [ ] Header presente
+- [ ] Una sola Shell condivisa (Header + `Outlet`) per entrambe le pagine
+- [ ] Rotte esatte: `/` e `/movies/:id`
+- [ ] Elenco: URL API fissa, no filtri, no paginazione; coerenza col wireframe
+- [ ] Dettaglio: fetch con `id` da URL; coerenza col wireframe
+- [ ] Una commit per ogni step
+- [ ] Push su GitHub effettuata
 
 ---
 
-*Documento di traccia — prova di fine modulo Frontend React di base.*
+_Documento di traccia — prova di fine modulo Frontend React di base._
